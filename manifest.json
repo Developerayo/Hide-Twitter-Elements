@@ -1,0 +1,28 @@
+{
+    "manifest_version": 3,
+    "name": "Hide Twitter Elements",
+    "description": "Hide Activity of Twitter POST",
+    "version": "1.0.0",    
+    "action": {   
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "activeTab",
+        "tabs",
+        "storage"
+    ],
+    "host_permissions": [
+        "*://*/*"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "https://*.twitter.com/*"
+            ],
+            "js": [
+                "assets/lib/jquery.min.js",
+                "content_script.js"
+            ]
+        }
+    ]
+}
