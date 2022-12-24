@@ -1,5 +1,5 @@
 {
-    "manifest_version": 2,
+    "manifest_version": 3,
     "name": "Hide Twitter Elements",
     "description": "Choose to make your Twitter timeline less crowded by disabling features you do not need.",
     "version": "1.0.2",    
@@ -8,13 +8,6 @@
         "18": "assets/images/logo1.png",
         "128": "assets/images/logo1.png"
     },
-    "page_action": {
-        "default_icon": {
-        "16": "assets/images/logo1.png",
-        "18": "assets/images/logo1.png",
-        "128": "assets/images/logo1.png"
-    }
-},
     "action": {   
         "default_popup": "popup.html"
     }, 

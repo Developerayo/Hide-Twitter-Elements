@@ -48,6 +48,7 @@ span, p, h1, h2, h3, h4, h5, h6 {
     padding: 0 15px;
 }
 
+////********************///
 .switch {
   position: relative;
   display: inline-block;
@@ -64,8 +65,8 @@ span, p, h1, h2, h3, h4, h5, h6 {
 .slider {
     position: absolute;
     cursor: pointer;
-    top: 63px;
-    left: 70px;
+    top: 70px;
+    left: 120px;
     right: 0;
     bottom: 0;
     background-color: #ccc;
@@ -108,4 +109,14 @@ input:checked + .slider:before {
 
 .slider.round:before {
   border-radius: 50%;
+}
+
+.comments-toggle {
+    margin-top:  50px;
+}
+.retweets-toggle {
+    margin-top:  105px;
+}
+.like-toggle {
+    margin-top:  160px;
 }
