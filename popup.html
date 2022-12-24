@@ -1,37 +1,59 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>Hide Twitter Elements - HTE</title>
 	<meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- _________  Fonts _______  -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- _________  Fonts _______  -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
 	<link rel="stylesheet" type="text/css" href="assets/fonts/stylesheet.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 </head>
+
 <body>
-	
-	<div class="main-container">		
+
+	<div class="main-container">
 		<header>
 			<div class="container">
 				<div class="header-wrap">
 					<br>
-					<h2>Enable/Disable Feature</h2>
-					<br>
-					<label class="switch">
-					  <input type="checkbox" id="on-off">
-					  <span class="slider round"></span>
-					</label>
+					<h6>Hide Twitter Feature</h2>
+						<br>
+
+						<label class="switch"> Analytics
+							<input type="checkbox" id="on-off-analytics">
+							<span class="slider round"></span>
+						</label>
+						<hr>
+						<label class="switch"> Comments
+							<input type="checkbox" id="on-off-comments">
+							<span class="slider round comments-toggle"></span>
+						</label>
+						<hr>
+
+						<label class="switch"> Retweets
+							<input type="checkbox" id="on-off-retweets">
+							<span class="slider round retweets-toggle"></span>
+						</label>
+						<hr>
+
+						<label class="switch"> Like
+							<input type="checkbox" id="on-off-like">
+							<span class="slider round like-toggle"></span>
+						</label>
+
 				</div>
 			</div>
 		</header>
 
 
-	<script src="assets/lib/jquery.min.js"></script>
-	<script src="popop.js"></script>
+		<script src="assets/lib/jquery.min.js"></script>
+		<script src="popop.js"></script>
 
 
 </body>
+
 </html>
