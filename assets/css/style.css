@@ -6,6 +6,7 @@ body {
     position: relative;
     width: 300px;
     height: 300px;
+    background: #011e3a;
 }
 * {
 	box-sizing: border-box;
@@ -69,7 +70,7 @@ span, p, h1, h2, h3, h4, h5, h6 {
     left: 120px;
     right: 0;
     bottom: 0;
-    background-color: #ccc;
+    background-color: rgb(218, 48, 48);
     -webkit-transition: .4s;
     transition: .4s;
     width: 58px;
@@ -89,11 +90,11 @@ span, p, h1, h2, h3, h4, h5, h6 {
 }
 
 input:checked + .slider {
-  background-color: #2196F3;
+  background-color: #00ed64;
 }
 
 input:focus + .slider {
-  box-shadow: 0 0 1px #2196F3;
+  box-shadow: 0 0 1px #00e004;
 }
 
 input:checked + .slider:before {
